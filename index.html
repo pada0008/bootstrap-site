@@ -1,166 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-
-	<meta charset="UTF-8">
-	<title>Bootstrap</title>
-
-	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,200' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/iconic-bootstrap.css"/>
-	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-
-
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootstrap-carousel.js"></script>
-	<!--	<script src="js/index.js"></script>-->
-	<script type="text/javascript">
-		$('#carousel').carousel({
-			interval: 3000,
-			cycle: true
-		});
-	</script>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/iconic-bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <!--	<script src="js/index.js"></script>-->
+    <script type="text/javascript">
+        $('#carousel').carousel({
+            interval: 3000
+            , cycle: true
+        });
+    </script>
 </head>
 
 <body>
-	<!-- Wrap all page content here -->
-	<div id="wrap">
-
-		<div class="bg"></div>
-
-		<div class="container margin-bottom-2">
-			<div class="row margin-top-2">
-
-				<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2">
-					<img src="img/logo.jpg" alt="logo" class="img-thumbnail" style="width:100%">
-
-				</div>
-				
-    <nav class="navbar navbar-light">
-		<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
-		
-		<div class="collapse navbar-toggleable-xs" id="navbarResponsive">		
-			<ul class="nav navbar-nav">
-			  <li class="nav-item active">
-				<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="help.html">Help</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="contact.html">Contact</a>
-			  </li>
-			</ul>
-		</div>
-	</nav>
-    
-	
-	<script src="https://cdn.jsdelivr.net/bootstrap.native/1.0.4/bootstrap-native.js"></script>
-
-<!--
-				<div class="navbar col-lg-4 col-lg-offset-7">
-					<div class="navbar-inner">
-						<ul class=" nav nav-tabs pull-right">
-							<li role="presentation" class="active"><a href="#">Home</a>
-							</li>
-							<li role="presentation"><a href="help.html">Help</a>
-							</li>
-							<li role="presentation"><a href="locations.html">Locations</a>
-							</li>
-							<li role="presentation"><a href="contact.html">Contact</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
--->
-        
-			<div class="row margin-top-2">
-				<div class="col-lg-12">
-					<div id="carousel" class="carousel slide" data-ride="carousel">
-						<!-- Menu -->
-						<ol class="carousel-indicators">
-							<li data-target="#carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel" data-slide-to="1"></li>
-							<li data-target="#carousel" data-slide-to="2"></li>
-							<li data-target="#carousel" data-slide-to="3"></li>
-							<!--						<li data-target="#carousel" data-slide-to="4"></li>-->
-						</ol>
-
-						<!-- Items -->
-						<div class="carousel-inner">
-
-							<div class="item active">
-								<img src="img/1.jpg" alt="Slide 1" />
-							</div>
-							<div class="item">
-								<img src="img/2.jpg" alt="Slide 2" />
-							</div>
-							<div class="item">
-								<img src="img/3.jpg" alt="Slide 3" />
-							</div>
-							<div class="item">
-								<img src="img/4.jpg" alt="Slide 4" />
-							</div>
-						</div>
-						<a href="#carousel" class="left carousel-control" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left"></span>
-						</a>
-						<a href="#carousel" class="right carousel-control" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right"></span>
-						</a>
-					</div>
-				</div>
-			</div>
-
-<!--
-			<div class="row margin-top-2">
-				<div class="col-lg-12">
-					<h1>Introduction </h1>
-					<p>Climate change is a change in the statistical distribution of weather patterns when that change lasts for an extended period of time (i.e., decades to millions of years).
-
-
-                    The climate of a region or city is its typical or average weather. For example, the climate of Hawaii is sunny and warm. But the climate of Antarctica is freezing cold. Earth's climate is the average of all the world's regional climates.
-                    Climate change, therefore, is a change in the typical or average weather of a region or city. This could be a change in a region's average annual rainfall, for example. Or it could be a change in a city's average temperature for a given month or season.
-                    Climate change is also a change in Earth's overall climate. This could be a change in Earth's average temperature, for example. Or it could be a change in Earth's typical precipitation patterns.
-</p>
-				</div>
-			</div>
-
-			<div class="row margin-top-2">
-				<div class="col-lg-12">
-					<h1>About </h1>
-					<p>Official goals are the general aims of an organization as expressed in the corporate charter, annual reports, public statements and mission statements. Their purpose is to give the organization a favourable public image, provide legitimacy, and justify its activities.
-
-                    Operative goals reflect the actual intention of an organization. They describe the concrete steps to be taken to achieve the organization's purpose. They often don't correspond with official goals.
-                    
-                    Organizational goals are created in an attempt to achieve a desired state of profit and success. General organizational goals are found in the mission/vision statement of the company, but details of those goals are defined in the business plan.  </p>
-				</div>
-			</div>
--->
-
-		</div>
-	</div>
-	
-    <div class="jumbotron">
-      <h1 class="display-3">GreenPeace</h1>
-                    <p class="lead">Official goals are the general aims of an organization as expressed in the corporate charter, annual reports, public statements and mission statements. Their purpose is to give the organization a favourable public image, provide legitimacy, and justify its activities.
-
-                    Operative goals reflect the actual intention of an organization. They describe the concrete steps to be taken to achieve the organization's purpose. They often don't correspond with official goals.
-                    
-                    Organizational goals are created in an attempt to achieve a desired state of profit and success. General organizational goals are found in the mission/vision statement of the company, but details of those goals are defined in the business plan. </p>
-  <hr class="my-2">
-      <h3 class="display-4">Definition</h3>
-                    <p class="sub">Climate change is a change in the statistical distribution of weather patterns when that change lasts for an extended period of time (i.e., decades to millions of years).
-    
-                    The climate of a region or city is its typical or average weather. For example, the climate of Hawaii is sunny and warm. But the climate of Antarctica is freezing cold. Earth's climate is the average of all the world's regional climates.
-                    Climate change, therefore, is a change in the typical or average weather of a region or city. This could be a change in a region's average annual rainfall, for example. Or it could be a change in a city's average temperature for a given month or season.
-                    Climate change is also a change in Earth's overall climate. This could be a change in Earth's average temperature, for example. Or it could be a change in Earth's typical precipitation patterns.</p>
-	
-	<br><br>
-	
-<!--
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+        <div class="bg"></div>
+        <div class="container margin-bottom-2">
+            <div class="row margin-top-2">
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"> <img src="img/logo.jpg" alt="logo" class="img-thumbnail" style="width:100%"> </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#"> <img alt="Brand" src="img/logo.jpg" width="45px" height="auto"> </a>
+                            <a class="navbar-brand" href="#"></a>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                                <li><a href="help.html">Help</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+                <div class="row margin-top-2">
+                    <div class="col-lg-12">
+                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                            <!-- Menu -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                                <li data-target="#carousel" data-slide-to="3"></li>
+                                <!--						<li data-target="#carousel" data-slide-to="4"></li>-->
+                            </ol>
+                            <!-- Items -->
+                            <div class="carousel-inner">
+                                <div class="item active"> <img src="img/1.jpg" alt="Slide 1" /> </div>
+                                <div class="item"> <img src="img/2.jpg" alt="Slide 2" /> </div>
+                                <div class="item"> <img src="img/3.jpg" alt="Slide 3" /> </div>
+                                <div class="item"> <img src="img/4.jpg" alt="Slide 4" /> </div>
+                            </div>
+                            <a href="#carousel" class="left carousel-control" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                            <a href="#carousel" class="right carousel-control" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <h1 class="display-3">GreenPeace</h1>
+            <p class="lead">Official goals are the general aims of an organization as expressed in the corporate charter, annual reports, public statements and mission statements. Their purpose is to give the organization a favourable public image, provide legitimacy, and justify its activities. Operative goals reflect the actual intention of an organization. They describe the concrete steps to be taken to achieve the organization's purpose. They often don't correspond with official goals. Organizational goals are created in an attempt to achieve a desired state of profit and success. General organizational goals are found in the mission/vision statement of the company, but details of those goals are defined in the business plan. </p>
+            <hr class="my-2">
+            <h3 class="display-4">Definition</h3>
+            <p class="sub">Climate change is a change in the statistical distribution of weather patterns when that change lasts for an extended period of time (i.e., decades to millions of years). The climate of a region or city is its typical or average weather. For example, the climate of Hawaii is sunny and warm. But the climate of Antarctica is freezing cold. Earth's climate is the average of all the world's regional climates. Climate change, therefore, is a change in the typical or average weather of a region or city. This could be a change in a region's average annual rainfall, for example. Or it could be a change in a city's average temperature for a given month or season. Climate change is also a change in Earth's overall climate. This could be a change in Earth's average temperature, for example. Or it could be a change in Earth's typical precipitation patterns.</p>
+            <br>
+            <br>
+            <!--
 	<div id="footer">
 		<div class="social">
 			<p class="margin-top-1">&copy; Algonquin MAD&amp;D Inc.
@@ -180,51 +100,41 @@
 	</div>
         </div>
 -->
-
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="iconic iconic-social-twitter iconic-md">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <ul class="list-inline text-center">
+                                <li>
+                                    <a href="" target="_blank"> <span class="iconic iconic-social-twitter iconic-md">
                                    
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="iconic iconic-social-github iconic-md">
+                                </span> </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank"> <span class="iconic iconic-social-github iconic-md">
                                     
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="iconic iconic-social-facebook iconic-md">
+                                </span> </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank"> <span class="iconic iconic-social-facebook iconic-md">
                                    
-                                      </span>
-                            </a>
-                        </li>
-                     <li>
-                            <a href="" target="_blank">
-                                <span class="iconic iconic-social-linkedin iconic-md">
+                                      </span> </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank"> <span class="iconic iconic-social-linkedin iconic-md">
                                    
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Janki Padaliya</p>
+                                </span> </a>
+                                </li>
+                            </ul>
+                            <p class="copyright text-muted">Copyright &copy; Janki Padaliya</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
- 
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/bootstrap.native/1.0.4/bootstrap-native.js"></script>
 </body>
 
 </html>
