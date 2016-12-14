@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Marmelad');
+
+body
+{
+	background-color: transparent;
+	width: 100%;
+}
+
+.bg {
+  background: url('../img/bg_large.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+h1,h2,h3,h4
+{
+    font-family: 'Bree Serif', serif;
+}
+
+p,label,
+a,th,td,
+input[type="text"],
+button
+{
+	font-family: 'Marmelad', sans-serif;
+    
+}
+.steps{
+    font-family: 'Marmelad', sans-serif;
+}
+p
+{
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 30px;
+}
+a
+{
+	font-weight: 300;
+	font-size: 15px;
+}
+h1.display-3
+{
+    margin: 50px;
+    padding: 10px;
+}
+p.lead
+{
+     padding: 10px;
+    margin: 50px;
+}
+h3.display-4
+{
+    margin: 50px;
+    padding: 5px;
+}
+p.sub
+{
+     padding: 10px;
+    margin: 50px;
+}
+img.card-img-top
+{
+    display: block;
+    margin: 0 auto;
+}
+h3.card-title
+{
+    margin: 40px;
+}
+p.card-text
+{
+    padding: 10px;
+    margin: 45px;
+}
+li.list-group-item
+{
+    margin: 50px;
+}
+button
+{
+    background-color: #FFF65A;
+    border: none;
+    color: #4D6AFF;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid #81E853;
+	
+}
+
+
+/* margin
+-------------------------------------------------- */
+
+.margin-top-1 { margin-top:1%; }
+.margin-top-2 { margin-top:2%; }
+.margin-top-3 { margin-top:3%; }
+.margin-top-5 { margin-top:5%; }
+.margin-top-10 { margin-top:10%; }
+.margin-top-15 { margin-top:15%; }
+.margin-top-20 { margin-top:20%; }
+
+.margin-bottom-1 { margin-bottom:1%; }
+.margin-bottom-2 { margin-bottom:2%; }
+.margin-bottom-3 { margin-bottom:3%; }
+.margin-bottom-5 { margin-bottom:5%; }
+.margin-bottom-10 { margin-bottom:10%; }
+.margin-bottom-15 { margin-bottom:15%; }
+.margin-bottom-20 { margin-bottom:20%; }
+
+.margin-left-1 { margin-left:1%; }
+.margin-left-2 { margin-left:2%; }
+.margin-left-3 { margin-left:3%; }
+.margin-left-5 { margin-left:5%; }
+.margin-left-10 { margin-left:10%; }
+.margin-left-15 { margin-left:15%; }
+.margin-left-20 { margin-left:20%; }
+
+.margin-right-1 { margin-right:1%; }
+.margin-right-2 { margin-right:2%; }
+.margin-right-3 { margin-right:3%; }
+.margin-right-5 { margin-right:5%; }
+.margin-right-10 { margin-right:10%; }
+.margin-right-15 { margin-right:15%; }
+.margin-right-20 { margin-right:20%; }
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -50px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+	margin-top: 15px;
+  height: 50px;
+  background-color: #53CFE8;
+	color: #68FFAE;
+}
+.social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #4D6AFF;
+  overflow: hidden;
+
+}
+    .social:hover {
+      margin-top: -1px;
+    }
+    
+    .social#twitter:hover {
+      color: #77DDF6;
+    }
+
+    .social#facebook:hover {
+      color: black;
+    }
+
+    .social#linkedin:hover {
+      color: #0177B5;
+    }
+
+    .social#instagram:hover {
+      color: #29A329;
+    }
+
+footer p{
+    text-align: center;
+}
+  
+
+
+
